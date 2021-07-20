@@ -8,7 +8,7 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background: black;
+  background: black !important;
   height: 2.8rem;
   padding: 0.5rem 0;
 }
@@ -170,13 +170,13 @@ body {
 .blog-post {
   box-shadow: 0 0.7rem 0.7rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1rem !important;
+  margin: 1rem !important;
 }
 
 /*============= FOOTER =============*/
 footer {
-  background-color: #000000;
+  background-color: #000000 !important;
   padding: 1rem 2rem 3rem;
 }
 
