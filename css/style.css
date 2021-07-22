@@ -61,7 +61,7 @@ body {
 /*-- Carousel Content --*/
 .carousel-caption {
   position: absolute;
-  top: 44%;
+  top: 40%;
   transform: translateY(-50%);
   text-transform: uppercase;
 }
@@ -128,6 +128,10 @@ body {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.svg-inline--fa {
+  color: red;
+}
+
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed-background {
@@ -138,19 +142,6 @@ body {
 .fixed {
   background-image: url("../img/update.jpeg");
   position: fixed;
-}
-
-/*-- Emoji Navbar --*/
-.emoji {
-  background-image: linear-gradient(to right, #4981b3, #ac2615);
-  min-height: 0 !important;
-  padding: 0.4rem 0 !important;
-}
-
-.emoji .svg-inline--fa {
-  margin: 0 auto;
-  color: white;
-  font-size: 2rem;
 }
 
 /*===== TEAM SECTION =====*/
@@ -171,13 +162,12 @@ body {
   box-shadow: 0 0.7rem 0.7rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   padding: 1rem !important;
-  margin: 1rem !important;
+  /* margin: 1rem !important; */
 }
 
 /*============= FOOTER =============*/
 footer {
   background-color: #000000 !important;
-  padding: 1rem 2rem 3rem;
 }
 
 footer img {
@@ -205,6 +195,7 @@ ul.social li {
 
 footer .svg-inline--fa {
   font-size: 2.3rem;
+  color: white;
 }
 
 footer .svg-inline--fa:hover {
@@ -224,21 +215,6 @@ ul.footer-links li {
 ul.footer-links a:hover {
   color: white;
   text-decoration: underline;
-}
-
-.custom-input {
-  background-color: black;
-  border: none;
-  border-bottom: 0.01rem solid white;
-  border-radius: 0;
-}
-
-.custom-input:focus {
-  background-color: black;
-  border: none;
-  border-bottom: 0.01rem solid white;
-  border-radius: 0;
-  outline-color: black !important;
 }
 
 /*============= SOCKET =============*/
@@ -283,6 +259,14 @@ ul.footer-links a:hover {
 
   .btn-lg {
     font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .client-comment {
+    font-size: 1.7rem;
   }
 }
 
